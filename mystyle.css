@@ -71,3 +71,9 @@ aside ul {
 aside li {
   padding: 5px 0;
 }
+
+table,
+th,
+td {
+  border: 1px solid;
+}
