@@ -1,0 +1,22 @@
+body {
+  background-color: #f5f5dc;
+}
+
+h1 {
+  color: navy;
+  font-family: verdana;
+}
+
+h2 {
+  color: navy;
+  font-family: courier;
+}
+
+p {
+  font-size: 20px;
+  border-top: 1px solid navy;
+}
+
+img {
+  border: 5px solid #555;
+}
