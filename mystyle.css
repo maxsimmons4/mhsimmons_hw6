@@ -9,14 +9,65 @@ h1 {
 
 h2 {
   color: navy;
-  font-family: courier;
+  font-family: verdana;
 }
 
 p {
   font-size: 20px;
-  border-top: 1px solid navy;
 }
 
 img {
   border: 5px solid #555;
+}
+
+.navbar {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  background-color: navy;
+  display: flex;
+  align-items: center;
+}
+
+.navbar li {
+  padding: 15px 20px;
+}
+
+.navbar li a {
+  text-decoration: none;
+  color: white;
+  font-family: verdana;
+  font-size: 18px;
+  font-weight: bold;
+  text-transform: uppercase;
+  display: block;
+  padding: 15px 20px;
+}
+
+ul {
+  font-size: 18px;
+}
+
+aside {
+  background-color: #f4f4f4;
+  padding: 20px;
+  border-left: 5px solid #17325d;
+  width: 250px;
+  position: absolute;
+  right: 20px;
+  top: 100px;
+}
+
+aside h2,
+aside h3 {
+  color: #17325d;
+}
+
+aside ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+aside li {
+  padding: 5px 0;
 }
